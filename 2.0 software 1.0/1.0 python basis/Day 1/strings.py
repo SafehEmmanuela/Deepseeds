@@ -31,7 +31,7 @@
 
 # email= input("Enter your email")
 # if "@" in email and "." in email:
-#     username= email.split("@")[0]
+#     username= email.split(" ")[0]
 #     domain= email.split("@")[1]
 #     print(f"username: {username}")
 #     print(f"Domain: {domain}")
