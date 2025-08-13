@@ -19,6 +19,9 @@ class student:
     
     def student_gender(self):
         return f"{self.name} is a {self.gender}"
+    
+    def drop_lesson(self):
+        return f"{self.name} is dropping Linear algebra"
 # Imma start creating instances(Objects) of thus class student
 first_student=student("Alen","Uba23PH127",3.4,"Female")
 second_student=student("Emma","Uba23PH763", 2.9,"Male")
@@ -36,5 +39,4 @@ print(f"Matricule: {second_student.matricule}")
 print(f"Gpa: {second_student.gpa}")
 print(f"Gender: {second_student.gender}")
 
-
-print(f'THIRD STUDENT is: {third_student.name}')
+print(f"Semester result: {first_student.semester_result}")
